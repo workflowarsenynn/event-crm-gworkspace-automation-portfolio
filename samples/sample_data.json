@@ -1,0 +1,31 @@
+{
+  "clients": [
+    {
+      "ClientId": "C-001",
+      "Name": "Client A",
+      "Company": "Company A",
+      "Email": "client.a@example.com",
+      "Phone": "+1000000001",
+      "Contact": "Event manager"
+    }
+  ],
+  "projects": [
+    {
+      "ProjectId": "P-001",
+      "ClientId": "C-001",
+      "Name": "Project Sunrise",
+      "EventDate": "2025-07-15T18:00:00Z",
+      "EventEnd": "2025-07-15T22:00:00Z",
+      "Venue": "Demo Venue",
+      "Status": "Draft"
+    }
+  ],
+  "equipment": [
+    { "ItemId": "E-001", "Name": "Sound System", "Unit": "pcs", "Price": 5000 },
+    { "ItemId": "E-002", "Name": "Lighting Kit", "Unit": "pcs", "Price": 3500 }
+  ],
+  "quotationLines": [
+    { "ProjectId": "P-001", "Item": "Sound System", "Quantity": 2, "Unit": "pcs", "Price": 5000 },
+    { "ProjectId": "P-001", "Item": "Lighting Kit", "Quantity": 3, "Unit": "pcs", "Price": 3500 }
+  ]
+}
