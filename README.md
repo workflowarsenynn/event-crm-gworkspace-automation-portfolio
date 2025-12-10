@@ -79,10 +79,10 @@ The code here is a sanitized architecture-only version: same ideas and workflows
 - Main project & quotation sheet:
   ![SMED quotation builder (header and lines)](docs/screenshots/smed_quotation_builder_1.png)
 
-- Project totals, profit and client requisites:
+- Generated commercial offer (Google Docs):
   ![SMED totals and client requisites](docs/screenshots/smed_totals_and_client_requisites.png)
 
-- Quotation lines block (items table):
+- Totals, profit and client requisites in SMED sheet:
   ![SMED quotation builder (items table)](docs/screenshots/smed_quotation_builder_2.png)
 
 - Equipment catalog:
@@ -118,4 +118,4 @@ The code here is a sanitized architecture-only version: same ideas and workflows
 - Operational reporting, financial dashboards, integrations with external lead sources.
 - Production calendars, Drive folder automation with ACLs, notification pipelines.
 
-Use this repo as a reference architecture only. All improvements and experiments must stay inside the portfolio folder.***
+Use this repo as a reference architecture only. All improvements and experiments must stay inside the portfolio folder.
