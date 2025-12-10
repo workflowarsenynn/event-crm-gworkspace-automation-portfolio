@@ -1,6 +1,7 @@
 # Local tooling/config
 .clasp.json
 .vscode/
+.history/
 
 # System files
 .DS_Store
